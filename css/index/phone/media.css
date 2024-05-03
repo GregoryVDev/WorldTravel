@@ -107,40 +107,63 @@
     font-weight: 300;
     font-size: var(--fsize6);
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   article {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     text-align: center;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+    background: #e5e5e5;
   }
 
   article figure {
-    border: 3px solid green;
+    /* border: 3px solid green; */
   }
 
   .picture img {
-    width: 80%;
+    width: 100%;
+  }
+
+  figcaption {
+    margin-bottom: 8%;
+    padding: 0px 5px;
   }
 
   figcaption h3 {
     text-align: left !important;
     font-family: var(--sourceBold) !important;
-    font-size: var(--fsize6) !important;
+    font-size: 20px !important;
   }
 
   figcaption .dr {
     display: block;
-    border-bottom: 3px solid #8a6b36;
+    border-bottom: 2px solid #e2d1b5;
     width: 40%;
-    height: 100px;
   }
 
   figcaption .bold {
     font-family: var(--sourceBold);
+    text-align: left;
+  }
+
+  figcaption p {
+    text-align: justify;
   }
 
   figcaption .price {
     color: #27797d;
+  }
+
+  .decouvert {
+    margin: 10% 0;
+    background: transparent;
+    color: var(--text-color2);
+    border: 2px solid #f5f5f5;
+    padding: 5% 10%;
+    text-transform: uppercase;
+    border: 1px solid gray;
   }
 }
