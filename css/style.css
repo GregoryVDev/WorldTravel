@@ -7,6 +7,8 @@
   --fsize3: 30px;
   --fsize4: 25px;
   /* --headbackground: url("../assets/saita1.jpg"); */
+  --footercolor: black;
+  --newslater: url("../assets/newsletter.jpg");
 }
 
 * {
