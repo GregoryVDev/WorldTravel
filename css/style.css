@@ -11,9 +11,15 @@
   --newslater: url("../assets/newsletter.jpg");
 }
 
+/* GENERAL */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   /* overflow-x: hidden; */
 }
+
+/* HEADER */
+
+/* NAVBAR */
