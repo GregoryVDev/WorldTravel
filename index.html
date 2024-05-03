@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./css/index/media.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/index/phone/media.css">
     <title>World Travel</title>
 </head>
 
@@ -14,25 +14,61 @@
     <main>
         <section class="video-section">
             <header>
-                <nav>
+                <div class="nom">
+                    <h2>World Travel</h2>
+                </div>
+                <nav id="navbar">
                     <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Restaurant</a>
-                        </li>
-                        <li>
-                            <a href="#">Destination</a>
-                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Restaurant</a></li>
+                        <li><a href="#">Destination</a></li>
+                        <li><a href="#">Support</a></li>
                     </ul>
+                    <div class="burger">
+                        <img src="./assets/burger-bar.png" alt="Menu Burger">
+                    </div>
                 </nav>
             </header>
-            <!-- <video src="./assets/mer.mp4" autoplay loop muted></video> -->
+            <div class="applis">
+                <img src="./assets/facebook-f.png" alt="logo facebook">
+                <img src="./assets/twitter.png" alt="logo X">
+                <img src="./assets/signal-wifi.png" alt="logo wifi">
+                <img src="./assets/instagram.png" alt="logo instagram">
+            </div>
+            <h1>With Us, Every Trip is a Tailored Escape</h1>
+            <div class="container-buttons">
+                <button class="book">Book Now</button>
+                <button class="quote">Quote</button>
+            </div>
+            <video src="./assets/mer.mp4" autoplay loop muted></video>
         </section>
+        <section class="travels">
+            <h3>Travel beyond borders, towards the exceptional.</h3>
+
+            <container-article>
+                <article class="picture">
+                    <figure><img src="./assets/santorini.jpg" alt="Santorini"></figure>
+                    <figcaption>
+                        <h3>Palace by the sea in Greece</h3>
+                        <div class="dr"></div>
+                        <p class="bold">Séjour - 8 jours / 7 nuits</p>
+                        <br>
+                        <p class="bold">A partir de <span class="price">5 470e*</span></p>
+                        <br>
+                        <p>Explorez la Grèce, terre mythique où les vestiges antiques se mêlent à la splendeur des îles
+                            égéennes. Plongez dans ses eaux cristallines, goûtez à sa cuisine méditerranéenne et
+                            laissez-vous séduire par la chaleur de son peuple. Une aventure envoûtante où chaque coin
+                            révèle
+                            un trésor d'histoire et de beauté.</p>
+                    </figcaption>
+                </article>
+            </container-article>
+
+        </section>
+
+
+
     </main>
 </body>
 
