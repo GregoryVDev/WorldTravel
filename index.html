@@ -14,11 +14,12 @@
     <main>
         <section class="video-section">
             <header>
-                <div class="nom">
+                <div class="agency">
                     <h2>World Travel</h2>
                 </div>
                 <nav id="navbar">
                     <ul>
+                        <li><a href="#">Login</a></li>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Restaurant</a></li>
@@ -26,7 +27,7 @@
                         <li><a href="#">Support</a></li>
                     </ul>
                     <div class="burger">
-                        <img src="./assets/burger-bar.png" alt="Menu Burger">
+                        <img src="./assets/burger-bar.png" alt="Menu Burger" width="100%">
                     </div>
                 </nav>
             </header>
@@ -55,7 +56,8 @@
                         <br>
                         <p class="bold">Séjour - 8 jours / 7 nuits</p>
                         <br>
-                        <p class="bold">A partir de <span class="price">5 470e*</span></p>
+                        <p class="bold">A partir de <span class="price">5 470€</span><span class="price-promo"> 4
+                                980€*</span></p>
                         <br>
                         <p>Explorez la Grèce, terre mythique où les vestiges antiques se mêlent à la splendeur des îles
                             égéennes. Plongez dans ses eaux cristallines, goûtez à sa cuisine méditerranéenne et
@@ -74,7 +76,8 @@
                         <br>
                         <p class="bold">Séjour - 12 jours / 11 nuits</p>
                         <br>
-                        <p class="bold">A partir de <span class="price">5 800e*</span></p>
+                        <p class="bold">A partir de <span class="price">5 800€</span><span class="price-promo"> 5
+                                640€*</span></p>
                         <br>
                         <p>Plongez dans l'éblouissante beauté de Hawaii, où les vagues dansent sur des plages de sable
                             doré, les volcans éveillent l'âme aventurière et les couchers de soleil peignent le ciel de
@@ -91,7 +94,9 @@
                         <br>
                         <p class="bold">Séjour - 12 jours / 11 nuits</p>
                         <br>
-                        <p class="bold">A partir de <span class="price">5 580e*</span></p>
+                        <p class="bold">A partir de <span class="price">5 580€</span><span class="price-promo"> 5
+                                260€*</span></p>
+                        </p>
                         <br>
                         <p>Découvrez l'Islande, terre de contrastes où les glaciers scintillent sous le soleil de
                             minuit, les geysers jaillissent avec force et les aurores boréales illuminent le ciel de
@@ -109,7 +114,9 @@
                         <br>
                         <p class="bold">Séjour - 14 jours / 13 nuits</p>
                         <br>
-                        <p class="bold">A partir de <span class="price">5 620e*</span></p>
+                        <p class="bold">A partir de <span class="price">5 620€</span><span class="price-promo"> 5
+                                370€*</span></p>
+                        </p>
                         <br>
                         <p>Découvrez la fascinante Corée du Sud, où la tradition millénaire se mêle à l'avant-garde
                             urbaine. Parcourez ses palais majestueux, explorez ses quartiers animés, goûtez à sa cuisine
@@ -120,12 +127,107 @@
                     </figcaption>
                 </article>
             </div>
-
         </section>
+        <section class="informations">
+            <article class="advice">
+                <div class="container-left">
+                    <h4>Need advice ?</h4>
+                    <img src="./assets/advisor.jpg" alt="Advisor">
+                    <button class="getquote">Get a quote</button>
+                    <p>Or contact us at <br> 585-858</p>
+                    <button class="appointment">Make an appointment</button>
+                </div>
+            </article>
+            <article class="logos-news">
+                <div class="container-right">
+                    <figure>
+                        <img src="./assets/earth.png" alt="Earth">
+                        <figcaption>
+                            <h4>+ 700 Destinations</h4>
+                            <p>Our expert team handpicked all destinations in this site.</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/price.png" alt="Price">
+                        <figcaption>
+                            <h4>Best Price Guarantee</h4>
+                            <p>Price match within 48 hours of order confirmation.</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/tchat.png" alt="Support">
+                        <figcaption>
+                            <h4>Top notch support</h4>
+                            <p>We are here to help, before during, and even after your trip.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <section class="newsletter-infos">
+            <div class="container-newsletter">
+                <p>Subscribe to our newsletter to receive our exclusive preview offers</p>
+                <form action id="newsletter-form">
+                    <input type="text" class="newsletter-input" placeholder="Enter your mail">
+                    <button class="newsletter-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container-formulaire">
+                <h2>Contact us</h2>
+                <form method="post" action="#">
+                    <div class="form-row">
+                        <div class="name-form">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="surname" placeholder="Last Name " required>
+                        </div>
+                        <div class="prenom-form">
+                            <label for="prenom">First Name</label>
+                            <input type="text" id="prenom" name="firstname" placeholder="First Name " required>
+                        </div>
+                        <div class="email-form">
+                            <label for="prenom">Email</label>
+                            <input type="email" id="email" name="mail" placeholder="Email" required>
+                        </div>
+                        <div class="phone-form">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="number" placeholder="Phone">
+                        </div>
 
+                        <div class="message-form">
+                            <label for="message">Message :</label>
+                            <textarea name="text" id="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
 
-
+                        <div class="button-form">
+                            <button class="submit" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="black-footer">
+            <h2>World Travel</h2>
+            <p>Dream big, travel far : our world is waiting for you.</p>
+            <div class="applis">
+                <img src="./assets/facebook-f.png" alt="logo facebook">
+                <img src="./assets/twitter.png" alt="logo X">
+                <img src="./assets/signal-wifi.png" alt="logo wifi">
+                <img src="./assets/instagram.png" alt="logo instagram">
+            </div>
+        </div>
+        <div class="grey-footer">
+            <div class="container-footer">
+                <p>© 2024 World Travel . All rights Reserved . Design by <br>Grégory & Léa </p>
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 
 <script src="/js/script.js"></script>

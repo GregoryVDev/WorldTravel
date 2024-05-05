@@ -1,13 +1,14 @@
 :root {
   --text-color1: #f5f5f5;
-  --text-color2: black;
+  --text-color2: #0f0f0f;
+  --text-color3: #3d4642;
 
-  --fsize1: 60px;
-  --fsize2: 50px;
-  --fsize3: 40px;
-  --fsize4: 35px;
-  --fsize5: 30px;
-  --fsize6: 25px;
+  --fsize1: 3.75em;
+  --fsize2: 3.125em;
+  --fsize3: 2.5em;
+  --fsize4: 2.1875em;
+  --fsize5: 1.875em;
+  --fsize6: 1.5625em;
 
   --black: "SourceSansPro-Black";
   --blackIt: "SourceSansPro-BlackIt";
@@ -35,4 +36,3 @@
   box-sizing: border-box;
   /* overflow-x: hidden; */
 }
-
