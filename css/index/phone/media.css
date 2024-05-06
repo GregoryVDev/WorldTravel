@@ -27,6 +27,7 @@
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #f5f5f5;
+    background: rgba(0, 0, 0, 0.238);
   }
 
   .agency {
@@ -34,20 +35,6 @@
     font-size: var(--fsize6);
     font-family: var(--semiBold);
     margin-left: 3%;
-  }
-
-  nav ul {
-    display: none;
-  }
-
-  nav img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 3%;
-    right: 10%;
-    width: 8%;
   }
 
   .applis {
@@ -105,6 +92,79 @@
   }
 
   /* MENU BURGER */
+
+  nav ul {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #8a6b36;
+    text-align: center;
+    transition: 0.25s;
+    width: 100%;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
+  nav.active ul nav li {
+    list-style: none;
+    padding: 5px 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--text-color2);
+  }
+
+  .action-button {
+    border: 1px solid #8a6b36;
+    padding: 0.5rem 1.2rem;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .action-button:hover {
+    color: var(--text-color1);
+    border: 1px solid #f5f5f5;
+  }
+
+  nav img {
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    width: 8%;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  .active #burger:before {
+    content: "\2715";
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    color: var(--text-color1);
+    font-size: 1rem;
+  }
+
+  .active #burger img {
+    display: none;
+  }
+
+  nav.active ul {
+    left: 0;
+    display: flex;
+    transition: 0.5s ease-in-out;
+    position: sticky;
+    top: 0;
+  }
 
   /* SECTION TRAVELS */
 
@@ -304,7 +364,7 @@
     border: none;
     border-bottom: 1px solid #e2e4e5;
     margin-bottom: 30px;
-    font: 13px "poppins-regular";
+    font: 1rem "poppins-regular";
     font-weight: 500;
     line-height: 1.6;
   }
@@ -321,6 +381,7 @@
     margin-bottom: 30px;
     font-weight: 500;
     line-height: 1.6;
+    font-size: 1rem;
   }
 
   textarea:focus {
