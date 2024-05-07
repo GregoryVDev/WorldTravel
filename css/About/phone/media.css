@@ -35,12 +35,12 @@ section {
   h1 {
     color: var(--text-color1);
     font-size: var(--fsize3);
-    text-align: center;
     width: 70%;
-    margin: auto;
-    display: inline;
+    margin-top: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
   }
-
 
     /* Menu burger */
 
@@ -133,7 +133,7 @@ section {
 
   /* Qui es l'agence */
 
-  .agence{
+  .agence {
     font-family: var(--light);
     text-align: center;
     color: black;
@@ -143,14 +143,97 @@ section {
     display: inline;
   }
 
-  h3{
+  h3 {
     margin-right: 10%;
   }
 
-  .information-agence p{
+  .information-agence p {
     font-family: var(--regular);
     text-align: center;
     width: 70%;
     margin: auto;
     vertical-align: middle;
   }
+
+/* Photo-agence */
+
+  figure {
+    display: flex;
+    width: 100%;
+  }
+
+  /* INCLUDE NEWSLETTER */
+
+.container-newsletter {
+  background: url("../../../assets/newsletter.jpg") fixed;
+  background-size: cover;
+  background-position: 35% 75%;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.container-newsletter p {
+  color: var(--text-color1);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#newsletter-form {
+  display: inline-flex;
+}
+
+.container-newsletter .newsletter-button {
+  padding: 5px 10px;
+  background: #7a6957;
+  border: transparent;
+  color: var(--text-color1);
+}
+
+/* INCLUDE FOOTER */
+
+footer {
+  background: #151616;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2,
+footer p {
+  color: var(--text-color1);
+}
+
+footer h2 {
+  margin-bottom: 25px;
+  padding: 30px 20px 0;
+  font-family: var(--semiBold);
+}
+
+footer p {
+  padding: 0 20px 5px;
+  font-family: var(--light);
+}
+
+footer .applis {
+  margin: 5% 0 5% 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.grey-footer {
+  background: #3d4642;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.container-footer {
+  width: 100%;
+}
+
+.container-footer p {
+  text-align: center;
+}
