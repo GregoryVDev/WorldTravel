@@ -148,6 +148,10 @@ section {
   border-bottom: 3px solid #8a6b36;
 }
 
+video {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -215,10 +219,6 @@ h1 {
   padding: 10%;
   text-transform: uppercase;
   margin-bottom: 10%;
-}
-
-video {
-  display: none;
 }
 
 /* MENU BURGER */
@@ -303,6 +303,10 @@ nav.active ul {
 #search {
   border-radius: 10px;
   padding: 5px;
+}
+
+.logo-img img {
+  display: none;
 }
 
 /* SECTION TRAVELS */
