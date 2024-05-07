@@ -124,15 +124,15 @@ nav.active ul {
 
   /* SECTION INFORMATION AGENCE */
 
-  .agence {
-    font-family: var(--light);
-    text-align: center;
-    color: black;
-    font-size: var(--fsize3);
-    width: 70%;
-    margin: auto;
-    display: inline;
-  }
+.agence {
+  font-family: var(--light);
+  text-align: center;
+  color: black;
+  font-size: var(--fsize3);
+  width: 70%;
+  margin: auto;
+  display: inline;
+}
 
   h3 {
     margin-left: 8%;
@@ -151,10 +151,10 @@ nav.active ul {
 
 /*SECTION PHOTOS AGENCY*/
 
-  figure {
-    display: flex;
-    width: 100%;
-  }
+figure {
+  display: flex;
+  width: 100%;
+}
 
   figure img{
     width: 100%;

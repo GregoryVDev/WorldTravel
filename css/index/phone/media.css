@@ -120,22 +120,6 @@ nav.active ul {
 .container-button-action {
   display: flex;
   justify-content: center;
-}
-
-.action-button {
-  border: 1px solid #f5f5f5;
-  padding: 1rem 1.4rem;
-  border-radius: 5px;
-  outline: none;
-  margin-top: 50px;
-  background-color: transparent;
-  color: var(--text-color1);
-}
-
-.action-button:hover {
-  color: var(--text-color1);
-  border: 1px solid #8a6b36;
-  background: #7a6957;
 } */
 
 /* GENERAL */
@@ -323,25 +307,25 @@ nav.active ul {
 
 /* SECTION TRAVELS */
 
-.travels {
-  margin-top: 10%;
-}
-
 .travels h3 {
   font-family: var(--light);
   font-weight: 300;
   font-size: var(--fsize6);
   text-align: center;
-  margin-bottom: 5%;
+  margin: 5% 0%;
 }
 
-.picture {
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
   /* border: 3px solid black; */
   text-align: center;
   width: 70%;
   margin: auto;
   box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
   background: #e5e5e5;
+  margin-bottom: 10%;
 }
 
 .picture img {
