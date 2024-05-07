@@ -1,0 +1,105 @@
+@media all and (min-width: 1024px) {
+
+/*SECTION VIDEO*/
+
+    h1{
+        color: var(--text-color1);
+        font-size: var(--fsize3);
+        text-align: center;
+        width: 100%;
+        margin: auto;
+      }
+    
+    .agency {
+        margin-right: 3%;
+      }
+
+    video{
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        height: 100%;
+      }
+    
+      .video-section {
+        background: none;
+    }
+    
+/*HEADER*/
+      
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        height: 35%;
+        width: 100%;
+        border-bottom: 1px solid #f5f5f5;
+        background: rgba(0, 0, 0, 0.4);
+      }
+    
+ /*SECTION NAV*/
+
+      #burger {
+        display: none;
+      }
+    
+
+
+      #nav{
+        display: block;
+      }
+    
+      nav ul {
+        z-index: 10;
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        transition: 0.25s;
+        width: 100%;
+        background: none;
+        gap: 25px;
+        margin-left: 10px;
+      }
+    
+      nav ul:hover {
+        background: none;
+      }
+    
+      nav li {
+        background: none;
+      }
+    
+      nav ul li:hover {
+        background: none;
+      }
+    
+      nav.active ul nav li {
+        list-style: none;
+        padding: 5px 0;
+        display: none;
+      }
+    
+      nav a {
+        font-size: 0.8rem;
+      }
+
+ /*SECTION AGENCE*/
+
+    .photos-agency{
+        display: flex;
+        flex-flow: nowrap;
+      }
+    
+      figure{
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+   
+
+    .logo{
+        width: 20%;
+        height: 20%;
+    }
+}
