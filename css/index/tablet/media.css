@@ -1,10 +1,11 @@
-@media all and (min-width: 600px) and (max-width: 1400px) {
+@media all and (min-width: 768px) and (max-width: 1400px) {
   /* SECTION TABLET */
 
   /* SECTION VIDEO */
 
   header {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     height: 35%;
     width: 100%;
@@ -12,14 +13,24 @@
     background: rgba(0, 0, 0, 0.4);
   }
 
-  .video-section {
-    background: none;
+  .agency {
+    margin-right: 3%;
   }
 
-  video {
+  /* video {
     display: block;
     position: absolute;
     top: 0;
     z-index: -1;
+  } */
+
+  /* NAVBAR */
+
+  #burger {
+    display: none;
+  }
+
+  nav {
+    display: block;
   }
 }
