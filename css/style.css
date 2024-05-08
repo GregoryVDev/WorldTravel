@@ -34,7 +34,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  list-style: none;
 }
 
 @media all and (min-width: 1024px) {
@@ -46,10 +46,11 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    height: 35%;
+    height: 70px;
     width: 100%;
     border-bottom: 1px solid #f5f5f5;
     background: rgba(0, 0, 0, 0.4);
+    justify-content: space-between;
   }
 
   .agency {
@@ -87,7 +88,6 @@
   }
 
   nav ul li:hover {
-    background: none;
   }
 
   nav.active ul nav li {
@@ -97,7 +97,7 @@
   }
 
   nav a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .applis img:first-child {
@@ -112,16 +112,26 @@
 
   /* VIDEO SECTION */
 
-  video {
-    display: block;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    height: 100%;
-  }
-
   .video-section {
     background: none;
+  }
+
+  h1 {
+    color: var(--text-color1);
+    font-size: var(--fsize2);
+    text-align: left;
+    width: 40%; /* Ajustez la largeur du titre selon vos besoins */
+    margin-left: 3%; /* Ajoutez une marge à gauche pour l'espacement */
+  }
+
+  .container-article-text {
+    border: 3px solid black;
+    width: 100%;
+    display: flex;
+  }
+
+  article .container-text {
+    border: 3px solid black;
   }
 
   .container-buttons {
