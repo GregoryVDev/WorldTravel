@@ -135,13 +135,20 @@
 
   /* VIDEO SECTION */
 
-  .video-section {
-    background: none;
+  article.logo-travel {
+    display: block;
   }
 
-  video {
-    display: block;
+  .video-section {
     width: 100%;
+  }
+
+  .video-section {
+    background: url("../assets/mer.png") fixed;
+    background-size: cover;
+    background-position: 50% 75%;
+    height: auto;
+    border-bottom: 3px solid #8a6b36;
   }
 
   h1 {
@@ -187,11 +194,19 @@
     display: block;
   }
 
-  .book,
-  .quote {
+  .book {
     background: #f5f5f599;
     color: var(--text-color2);
     border: #0f0f0f 1px solid;
     margin: 0;
+  }
+
+  /* SECTION TRAVELS */
+
+  .container-article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    grid-auto-rows: auto; /* Automatically adjust row height */
+    gap: 20px; /* Gap between grid items */
   }
 }
