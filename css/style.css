@@ -165,21 +165,12 @@
     text-align: left;
   }
 
-  .applis {
+  footer .applis {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 100px 50px 0 0;
     margin-bottom: 0;
-    gap: 50px;
-  }
-
-  .logo-img {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .logo-img img {
-    display: block;
+    gap: 10px;
   }
 
   .book {

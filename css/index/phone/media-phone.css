@@ -264,7 +264,7 @@ section {
 .video-section {
   background: url("../../../assets/mer.png") fixed;
   background-size: cover;
-  background-position: 50% 75%;
+  background-position: 90% 75%;
   height: auto;
   border-bottom: 3px solid #8a6b36;
 }
@@ -311,6 +311,7 @@ h1 {
   text-align: center;
   width: 100%;
   margin: 15px 0 0 0;
+  text-shadow: 0px -1px 16px rgb(62 143 140);
 }
 
 .container-buttons {
@@ -645,19 +646,7 @@ footer .applis {
   margin: 15% 0 10% 0;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-}
-
-footer .applis img {
-  width: 100%;
-}
-
-footer .applis a:first-child {
-  width: 3.5%;
-}
-
-footer .applis a {
-  width: 5%;
+  gap: 50px;
 }
 
 .grey-footer {
