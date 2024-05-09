@@ -67,7 +67,9 @@
     transform-origin: bottom left;
   }
 
-  article .container-text {
+  /* SECTION VIDEO */
+
+  .container-text {
     display: inline-block;
     padding: 50px;
     width: 100%;
@@ -76,22 +78,10 @@
 
   .applis {
     display: flex;
-    margin: 15% 0 10% 0;
+    margin: 0 0 10% 0;
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-
-  .applis img {
-    width: 100%;
-  }
-
-  .applis a:first-child {
-    width: 2.5%;
-  }
-
-  .applis a {
-    width: 4%;
   }
 
   /* SECTION TRAVELS */
@@ -160,7 +150,7 @@
     font-size: var(--fsize3);
     text-align: center;
     width: 70%;
-    margin: auto;
+    margin: 15px auto;
   }
 
   /* video {
@@ -178,14 +168,6 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-
-  footer .applis img {
-    width: 100%;
-  }
-
-  footer .applis a:first-child {
-    width: 2.5%;
   }
 
   footer .applis a {

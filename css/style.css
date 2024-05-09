@@ -3,7 +3,7 @@
   --text-color2: #0f0f0f;
   --text-color3: #3d4642;
 
-  --fsize1: 3.75em;
+  --fsize1: 4.75em;
   --fsize2: 3.125em;
   --fsize3: 2.5em;
   --fsize4: 2.1875em;
@@ -123,66 +123,54 @@
     transform-origin: bottom left;
   }
 
-  .applis img:first-child {
-    height: 20%;
-    width: 1.4%;
-  }
-
-  .applis img {
-    width: 2%;
-    height: 5%;
-  }
-
   /* VIDEO SECTION */
 
-  article.logo-travel {
+  .container-video-section {
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    justify-content: space-between;
+  }
+
+  .logo-travel {
     display: block;
+    margin-top: 5%;
+  }
+
+  .logo-travel img {
+    width: 400px;
   }
 
   .video-section {
-    width: 100%;
+    height: 100%;
   }
 
   .video-section {
-    background: url("../assets/mer.png") fixed;
-    background-size: cover;
-    background-position: 50% 75%;
-    height: auto;
+    height: 80vh;
     border-bottom: 3px solid #8a6b36;
   }
 
-  h1 {
-    color: var(--text-color1);
-    font-size: var(--fsize2);
-    text-align: left;
-    width: 40%; /* Ajustez la largeur du titre selon vos besoins */
-    margin-left: 3%; /* Ajoutez une marge à gauche pour l'espacement */
-  }
-
-  .container-article-text {
-    border: 3px solid black;
-    width: 100%;
+  .container-titre {
     display: flex;
-  }
-
-  article .container-text {
-    border: 3px solid black;
-  }
-
-  .container-buttons {
-    display: flex;
-    width: 25%;
-    flex-direction: row;
-    margin: 10% auto;
-    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15%;
+    width: 700px;
+    gap: 50px;
   }
 
   h1 {
     color: var(--text-color1);
     font-size: var(--fsize2);
     text-align: left;
-    width: 40%;
-    margin-left: 3%;
+  }
+
+  .applis {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px 0 0;
+    margin-bottom: 0;
+    gap: 50px;
   }
 
   .logo-img {
@@ -198,7 +186,7 @@
     background: #f5f5f599;
     color: var(--text-color2);
     border: #0f0f0f 1px solid;
-    margin: 0;
+    margin-top: 0;
   }
 
   /* SECTION TRAVELS */

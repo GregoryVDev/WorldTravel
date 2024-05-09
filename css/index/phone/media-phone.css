@@ -120,14 +120,6 @@ nav.active ul {
 
 /* SECTION VIDEO */
 
-.video-section {
-  background: url("../../../assets/foret.png") fixed;
-  background-size: cover;
-  background-position: 50% 75%;
-  height: auto;
-  border-bottom: 3px solid #8a6b36;
-}
-
 article.container-text {
   display: inline-block;
   padding: 50px;
@@ -270,45 +262,47 @@ section {
 }
 
 .video-section {
-  background: url("../../../assets/foret.png") fixed;
+  background: url("../../../assets/mer.png") fixed;
   background-size: cover;
   background-position: 50% 75%;
   height: auto;
   border-bottom: 3px solid #8a6b36;
 }
 
-article .container-text {
+.container-titre {
   display: inline-block;
   padding: 50px;
   width: 100%;
   text-align: center;
 }
 
-article .container-test {
-  display: inline-block;
-  padding: 50px;
-  width: 100%;
-  text-align: center;
+.container-video-section {
+  padding-top: 100px;
 }
 
 .applis {
   display: flex;
-  margin: 15% 0 10% 0;
+  margin: 0 0 10% 0;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.applis img {
-  width: 100%;
+.bi-facebook {
+  color: var(--text-color1);
+  font-size: 1rem;
 }
 
-.applis a:first-child {
-  width: 3.5%;
+.bi-twitter-x {
+  color: var(--text-color1);
 }
 
-.applis a {
-  width: 5%;
+.bi-wifi {
+  color: var(--text-color1);
+}
+
+.bi-instagram {
+  color: var(--text-color1);
 }
 
 h1 {
@@ -316,7 +310,7 @@ h1 {
   font-size: var(--fsize3);
   text-align: center;
   width: 100%;
-  margin: auto;
+  margin: 15px 0 0 0;
 }
 
 .container-buttons {
