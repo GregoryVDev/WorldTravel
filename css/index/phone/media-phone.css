@@ -1,123 +1,3 @@
-/* INCLUDE */
-
-/* button {
-  cursor: pointer;
-}
-
-button:hover {
-  cursor: pointer;
-  background: #7a6957;
-  color: var(--text-color1);
-} */
-
-/* Header */
-
-/* header {
-  padding: 10px;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.4);
-  border: 1px solid white;
-}
-
-.agency {
-  color: var(--text-color1);
-  font-size: var(--fsize6);
-  font-family: var(--semiBold);
-  margin-left: 3%;
-} */
-
-/* MENU BURGER */
-
-/* nav ul {
-  z-index: 10;
-  position: fixed;
-  left: -100%;
-  top: 0;
-  flex-direction: column;
-  background-color: #3d4642;
-  text-align: center;
-  transition: 0.25s;
-  width: 100%;
-}
-
-nav li {
-  padding: 10px;
-  background-color: #3d4642;
-}
-
-nav li:hover {
-  background-color: #7a6957;
-}
-
-nav.active ul nav li {
-  list-style: none;
-  padding: 5px 0;
-}
-
-nav a {
-  text-decoration: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: var(--text-color1);
-  font-family: var(--light);
-}
-
-nav img {
-  display: block;
-  position: absolute;
-  top: 1%;
-  right: 10%;
-  width: 35px;
-  height: 35px;
-}
-
-#burger {
-  display: block;
-}
-
-.active #burger:before {
-  z-index: 200;
-  content: "\2715";
-  position: fixed;
-  top: 12px;
-  right: 12%;
-  color: var(--text-color1);
-  font-size: 1rem;
-}
-
-.active #burger img {
-  display: none;
-}
-
-nav.active ul {
-  left: 0;
-  display: flex;
-  transition: 0.5s ease-in-out;
-}
-
-.container-button-action {
-  display: flex;
-  justify-content: center;
-}
-
-.container-search {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-#search {
-  border-radius: 10px;
-  padding: 5px;
-}
-
-.logo-img img {
-  display: none;
-} */
-
 /* SECTION VIDEO */
 
 article.container-text {
@@ -182,11 +62,11 @@ nav ul {
 
 nav li {
   padding: 10px;
-  background-color: #3d4642;
+  background-color: #266070;
 }
 
 nav li:hover {
-  background-color: #7a6957;
+  background-color: #adbcc6;
 }
 
 nav.active ul nav li {
@@ -274,6 +154,7 @@ section {
   padding: 50px;
   width: 100%;
   text-align: center;
+  font-family: var(--semiBold);
 }
 
 .container-video-section {
@@ -329,15 +210,6 @@ h1 {
   padding: 20px;
   margin: 10%;
   text-transform: uppercase;
-}
-
-.quote {
-  background: transparent;
-  color: var(--text-color1);
-  border: 2px solid #f5f5f5;
-  padding: 10%;
-  text-transform: uppercase;
-  margin-bottom: 10%;
 }
 
 video {
@@ -532,12 +404,7 @@ figcaption .price-promo {
 
 /* SECTION CONTACT */
 
-.container-formulaire {
-  width: 80%;
-  margin: auto;
-}
-
-.container-formulaire h2 {
+.contact h2 {
   margin: 10px 0;
   text-align: center;
   color: var(--text-color3);
@@ -554,7 +421,7 @@ label {
   display: none;
 }
 
-.container-formulaire input {
+.formulaire-right input {
   border: none;
   border-bottom: 1px solid #e2e4e5;
   margin-bottom: 30px;
@@ -563,7 +430,7 @@ label {
   line-height: 1.6;
 }
 
-.container-formulaire input:focus {
+.formulaire-right input:focus {
   outline: none;
   border-bottom-color: #007aff;
   padding-bottom: 5px;
@@ -643,10 +510,10 @@ footer p {
 
 footer .applis {
   display: flex;
-  margin: 15% 0 10% 0;
+  margin: auto;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 .grey-footer {
@@ -691,52 +558,4 @@ footer .applis {
   background: #7a6957;
   border: transparent;
   color: var(--text-color1);
-} */
-
-/* INCLUDE FOOTER */
-
-/* footer {
-  background: #151616;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-footer h2,
-footer p {
-  color: var(--text-color1);
-}
-
-footer h2 {
-  margin-bottom: 25px;
-  padding: 30px 20px 0;
-  font-family: var(--semiBold);
-}
-
-footer p {
-  padding: 0 20px 5px;
-  font-family: var(--light);
-}
-
-footer .applis {
-  margin: 5% 0 5% 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.grey-footer {
-  background: #3d4642;
-  padding: 10px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-}
-
-.container-footer {
-  width: 100%;
-}
-
-.container-footer p {
-  text-align: center;
 } */
