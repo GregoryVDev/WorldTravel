@@ -243,6 +243,13 @@ video {
   margin-bottom: 10%;
 }
 
+.picture1 img,
+.picture2 img,
+.picture3 img,
+.picture4 img {
+  object-fit: cover;
+}
+
 .container-article img {
   width: 100%;
 }
@@ -251,13 +258,9 @@ video {
   display: flex;
 }
 
-.container-article figure img {
-  width: 100%;
-}
-
 .container-article figcaption {
   margin-bottom: 8%;
-  padding: 0px 5px;
+  padding: 0px 15px;
 }
 
 figcaption h3 {
@@ -297,7 +300,7 @@ figcaption .price-promo {
   background: transparent;
   color: var(--text-color2);
   border: 2px solid #f5f5f5;
-  padding: 5% 10%;
+  padding: 15px 15px;
   text-transform: uppercase;
   border: 1px solid gray;
 }
@@ -404,7 +407,7 @@ figcaption .price-promo {
 
 /* SECTION CONTACT */
 
-.contact h2 {
+.formulaire-right h2 {
   margin: 10px 0;
   text-align: center;
   color: var(--text-color3);

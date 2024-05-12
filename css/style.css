@@ -143,8 +143,7 @@
 
   .logo-travel img {
     /* margin-bottom: 300px; */
-    margin-bottom: 45%;
-    width: 200px;
+    margin-bottom: 20%;
   }
 
   .video-section {
@@ -183,13 +182,28 @@
     margin-top: 0;
   }
 
+  #search {
+    display: none;
+  }
+
   /* SECTION TRAVELS */
 
   .container-article {
     display: grid;
     gap: 20px; /* Gap between grid items */
-    width: 70%;
+    width: 80%; /* Réinitialise la largeur de l'image à sa taille originale */
+    max-width: 100%; /* Garantit que l'image ne dépasse pas la largeur du conteneur parent */
+    height: auto; /* Permet à la hauteur de l'image de s'ajuster automatiquement */
     margin: auto;
+  }
+
+  .container-article figcaption {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .container-article figure {
+    width: 100%;
   }
 
   .picture1,
@@ -197,6 +211,14 @@
   .picture3,
   .picture4 {
     margin: 0 auto;
+  }
+
+  .picture2 img {
+    height: 395px;
+  }
+
+  .picture4 {
+    height: 410px;
   }
 
   .picture1 {
@@ -227,7 +249,6 @@
   .picture4 {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row: span 1;
     flex-direction: row-reverse;
     display: flex;
     width: auto;
