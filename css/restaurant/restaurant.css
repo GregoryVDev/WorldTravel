@@ -1,0 +1,48 @@
+.container-titre {
+  margin: auto;
+  border: solid 3px red;
+}
+
+h1 {
+  width: auto;
+}
+.logo-travel {
+  margin: auto;
+}
+
+#section1 {
+  background: yellow;
+  text-align: center;
+}
+
+#section2 {
+  background: pink;
+  height: 50vh;
+  text-align: center;
+}
+
+#section3 {
+  background: blue;
+  height: 50vh;
+  text-align: center;
+}
+
+#section4 {
+  background: green;
+  height: 50vh;
+  text-align: center;
+}
+
+h3 {
+  padding: 20px;
+  background-color: #d9d9d9;
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: var(--semiBold);
+  font-size: var(--fsize6);
+  color: #3d4642;
+  margin-bottom: 10%;
+  padding-top: 5%;
+}
