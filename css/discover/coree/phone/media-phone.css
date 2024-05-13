@@ -160,3 +160,30 @@ nav.active ul {
 .hotel img {
   width: 100%;
 }
+
+.container-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* SECTION PRICE */
+
+.price p {
+  margin-top: 50px;
+  padding: 25px;
+  text-align: center;
+  background: #3d4642;
+  color: var(--text-color1);
+}
+
+.price .prix {
+  font-size: var(--fsize6);
+}
+
+.price h4 {
+  background-color: #d9d9d9;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
