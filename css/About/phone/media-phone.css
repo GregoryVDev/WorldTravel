@@ -1,5 +1,4 @@
-
- button {
+button {
   cursor: pointer;
 }
 
@@ -122,7 +121,7 @@ nav.active ul {
   justify-content: center;
 }
 
-  /* SECTION INFORMATION AGENCE */
+/* SECTION INFORMATION AGENCE */
 
 .agence {
   font-family: var(--light);
@@ -134,20 +133,19 @@ nav.active ul {
   display: inline;
 }
 
-  h3 {
-    margin-left: 8%;
-    text-align: left;
-  }
+h3 {
+  margin-left: 8%;
+  text-align: left;
+}
 
-  .information-agence p {
-    font-family: var(--regular);
-    text-align: left;
-    width: 70%;
-    margin: auto;
-    vertical-align: middle;
-    margin-bottom: 5%;
-  }
-
+.information-agence p {
+  font-family: var(--regular);
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  vertical-align: middle;
+  margin-bottom: 5%;
+}
 
 /*SECTION PHOTOS AGENCY*/
 
@@ -156,11 +154,11 @@ figure {
   width: 100%;
 }
 
-  figure img{
-    width: 100%;
-  }
+figure img {
+  width: 100%;
+}
 
-  /* SECTION NEWSLETTER */
+/* SECTION NEWSLETTER */
 
 .container-newsletter {
   background: url("../../../assets/newsletter.jpg") fixed;
