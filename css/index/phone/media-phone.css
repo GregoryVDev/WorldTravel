@@ -526,31 +526,3 @@ footer .applis {
 .container-footer p {
   text-align: center;
 }
-
-/* INCLUDE NEWSLETTER */
-
-/* .container-newsletter {
-  background: url("../../../assets/newsletter.jpg") fixed;
-  background-size: cover;
-  background-position: 35% 75%;
-  width: 100%;
-  padding: 50px;
-  text-align: center;
-}
-
-.container-newsletter p {
-  color: var(--text-color1);
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-#newsletter-form {
-  display: inline-flex;
-}
-
-.container-newsletter .newsletter-button {
-  padding: 5px 10px;
-  background: #7a6957;
-  border: transparent;
-  color: var(--text-color1);
-} */
