@@ -1,10 +1,11 @@
 .container-titre {
   margin: auto;
-  border: solid 3px red;
+  width: 100%;
 }
 
 h1 {
   width: auto;
+  margin: auto;
 }
 .logo-travel {
   margin: auto;
