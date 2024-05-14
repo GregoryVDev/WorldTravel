@@ -243,6 +243,15 @@ video {
   object-fit: cover;
 }
 
+.picture1 figcaption,
+.picture2 figcaption,
+.picture3 figcaption,
+.picture4 figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .container-article img {
   width: 100%;
 }
@@ -274,10 +283,6 @@ figcaption .bold {
   text-align: left;
 }
 
-figcaption p {
-  text-align: justify;
-}
-
 figcaption .price {
   color: grey;
   font-size: 0.9rem;
@@ -289,7 +294,7 @@ figcaption .price-promo {
 }
 
 .decouvert {
-  margin: 10% 0;
+  margin: 5% 0;
   background: transparent;
   color: var(--text-color2);
   border: 2px solid #f5f5f5;

@@ -48,7 +48,7 @@
     text-decoration: none;
   }
 
-  a::after {
+  nav a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -62,7 +62,7 @@
     transition: transform 0.25s ease-out;
   }
 
-  a:hover::after {
+  nav a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -97,6 +97,20 @@
     background: #e5e5e5;
     display: flex;
     margin: 0 0 20px 0;
+  }
+
+  .picture1 figure,
+  .picture2 figure,
+  .picture3 figure,
+  .picture4 figure {
+    width: 50%;
+  }
+
+  .picture1 figcaption,
+  .picture2 figcaption,
+  .picture3 figcaption,
+  .picture4 figcaption {
+    width: 50%;
   }
 
   .picture2,

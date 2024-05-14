@@ -279,6 +279,15 @@
 
   /* SECTION FORMULAIRE */
 
+  .container-form {
+    width: 80%;
+    max-width: 1020px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+  }
+
   .formulaire-right h2 {
     margin: auto;
   }
@@ -328,7 +337,7 @@
   }
 
   #message {
-    resize: vertical;
+    resize: none;
     width: 300px;
   }
 
