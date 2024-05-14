@@ -10,7 +10,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background: #7a6957;
+  background: #266070;
   color: var(--text-color1);
 }
 

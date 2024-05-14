@@ -7,6 +7,18 @@ h1 {
   margin: auto;
 }
 
+nav a:hover {
+  text-transform: uppercase;
+}
+
+a {
+  text-transform: none;
+}
+
+a:hover {
+  text-transform: none;
+}
+
 .logo-travel {
   margin: auto;
 }
