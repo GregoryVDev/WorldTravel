@@ -6,6 +6,19 @@ h1 {
   width: auto;
   margin: auto;
 }
+
+nav a:hover {
+  text-transform: uppercase;
+}
+
+a {
+  text-transform: none;
+}
+
+a:hover {
+  text-transform: none;
+}
+
 .logo-travel {
   margin: auto;
 }
@@ -29,10 +42,12 @@ h1 {
   text-align: center;
   width: 100%;
 }
+
 article {
   width: 50%;
   margin: auto;
 }
+
 h3 {
   padding: 20px;
   background-color: #d9d9d9;
@@ -73,7 +88,7 @@ p {
 /* SECTION NEWSLETTER */
 
 .container-newsletter {
-  background: url("../../../assets/newsletter.jpg") fixed;
+  background: url("../../assets/newsletter.jpg") fixed;
   background-size: cover;
   background-position: 35% 75%;
   width: 100%;

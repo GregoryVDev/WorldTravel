@@ -10,7 +10,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background: #7a6957;
+  background: #266070;
   color: var(--text-color1);
 }
 
@@ -216,7 +216,7 @@ video {
 
 /* SECTION TRAVELS */
 
-.travels h3 {
+#travels h3 {
   font-family: var(--light);
   font-weight: 300;
   font-size: var(--fsize6);
