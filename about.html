@@ -4,73 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/index/phone/media.css">
-    <link rel="stylesheet" href="./css/About/phone/media.css">
-    <link rel="stylesheet" href="./css/About/tablet/media.css">
+    <link rel="stylesheet" href="./css/index/phone/media-phone.css">
+    <link rel="stylesheet" href="./css/index/tablet/media-tablet.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/restaurant/restaurant.css">
+    <link rel="stylesheet" href="./css/About/phone/media-phone.css">
+    <link rel="stylesheet" href="./css/About/tablet/media-tablet.css">
     <link rel="stylesheet" href="./css/About/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <title>World Travel</title>
 </head>
 
 <body>
     <main>
-        <section class="video-section">
-
-            <header>
-                <div class="agency">
-                    <h2>World Travel</h2>
+        <header>
+            <div class="agency">
+                <h2>World Travel</h2>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Restaurant</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <div id="burger">
+                    <img src="./assets/icons/burger-bar.png" alt="Menu Burger" width="100%">
                 </div>
-                <nav id="nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Restaurant</a></li>
-                        <li><a href="#">Destination</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
-                    <div id="burger">
-                        <img src="./assets/icons/burger-bar.png" alt="Menu Burger" width="100%">
+            </nav>
+        </header>
+        <section class="video-section">
+            <div class="container-video-section">
+                <div class="container-titre">
+                    <h1>Explore the world</h1>
+                    <div class="logo-travel">
+                        <img src="./assets/icons/logotravel.png" alt="Logo World Travel">
                     </div>
-                </nav>
-                <video src="./assets/mer.mp4" autoplay loop muted></video>
-            </header>
-
-            <h1>Explore the world !</h1>
-            <article class="logo">
-                <figure>
-                    <img src="assets/icons/logotravel.png" alt="logotravel">
-                </figure>
-            </article>
-
+                </div>
+            </div>
         </section>
+
         <section class="information-agence">
             <div class="agence">
                 <h3>Who are we ?</h3><br>
             </div>
             <div class="container-agence">
-                <p>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Sed vitae sapien ac magna fermentum efficitur. Duis ac massa non lorem
-                    lacinia ultricies. Maecenas id diam velit. Sed a lectus auctor, dictum risus in, molestie velit.
-                    Curabitur auctor magna non purus sodales, sit amet mattis tortor laoreet. Suspendisse potenti. Etiam
-                    ac hendrerit velit. Ut id justo nec purus vehicula congue. Sed vitae vestibulum lacus. Maecenas
-                    vehicula luctus justo, nec sollicitudin turpis ultricies eget.
-                    Vivamus nec dictum est. Integer ac feugiat arcu. Suspendisse potenti. Maecenas vitae sapien eu arcu
-                    scelerisque volutpat eget sit amet felis. Sed nec tristique mauris. Sed posuere urna quis magna
-                    tempus, in scelerisque nisi condimentum.
-                    <br><br>
-                    Pellentesque euismod ligula nec libero vehicula, id lobortis mi pellentesque. Vivamus auctor nunc
-                    sit amet nisl auctor,
-                    eget pharetra justo volutpat. Integer sit amet fermentum ipsum. Sed ac hendrerit odio. Proin quis
-                    quam vel nisl ultricies varius non nec elit. Ut posuere tortor id diam finibus, vitae pharetra mi
-                    cursus.
-                    Donec faucibus sapien sit amet sem bibendum, nec fringilla libero hendrerit. Ut tempor nunc non
-                    felis ullamcorper, a vestibulum libero blandit. Integer non nulla ultrices, placerat velit vel,
-                    finibus lorem.
-                    Morbi hendrerit nunc eget nunc lobortis, vitae rhoncus odio viverra. Sed ut gravida urna. Duis
-                    tincidunt, lorem vel volutpat vehicula, metus nisl scelerisque metus, et fermentum magna libero sit
-                    amet purus. Curabitur ut risus vitae lorem ultrices sollicitudin.
-                    Cras et aliquam lorem. Fusce vel magna odio.
+                <p>At World Travel, we are much more than just a travel agency.
+                    We are adventure enthusiasts, explorers of exotic destinations,
+                    and creators of unforgettable memories.
+                    Founded on the principle of authentic exploration and personal discovery,
+                    our dedicated team is here to guide you through the wonders of the world.
+                    Whether you're in search of an enchanting getaway, an exhilarating adventure, 
+                    or a culturally enriching journey, we are here to turn your dreams into reality.
+                    With unparalleled expertise, attentive customer service, and a deep love for travel,
+                    we invite you to embark on an extraordinary journey with us.
                 </p>
             </div>
         </section>
@@ -100,18 +90,33 @@
         <div class="black-footer">
             <h2>World Travel</h2>
             <p>Dream big, travel far : our world is waiting for you.</p>
-            <div class="applis">
-                <img src="./assets/icons/facebook-f.png" alt="logo facebook">
-                <img src="./assets/icons/twitter.png" alt="logo X">
-                <img src="./assets/icons/signal-wifi.png" alt="logo wifi">
-                <img src="./assets/icons/instagram.png" alt="logo instagram">
-            </div>
+            <article class="container-text">
+                <div class="applis">
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-wifi"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </article>
         </div>
+        <span class="arrow">up</span>
+
         <div class="grey-footer">
             <div class="container-footer">
-                <p>© 2024 World Travel . All rights Reserved . Design by <br>Grégory & Léa </p>
+                <p>© 2024 World Travel . All rights Reserved . Design by <br>Grégory & Léa
+                </p>
             </div>
         </div>
     </footer>
     <script src="./js/script.js"></script>
 </body>
+
+</html>
