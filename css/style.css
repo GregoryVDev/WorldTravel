@@ -283,7 +283,7 @@
     margin: auto;
   }
 
-  .container-form {
+  #contact {
     display: flex;
     width: 100%;
     max-width: 1020px;

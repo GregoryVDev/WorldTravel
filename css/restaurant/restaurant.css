@@ -73,7 +73,7 @@ p {
 /* SECTION NEWSLETTER */
 
 .container-newsletter {
-  background: url("../../../assets/newsletter.jpg") fixed;
+  background: url("../../assets/newsletter.jpg") fixed;
   background-size: cover;
   background-position: 35% 75%;
   width: 100%;
