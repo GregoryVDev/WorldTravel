@@ -48,7 +48,7 @@
     text-decoration: none;
   }
 
-  a::after {
+  nav a::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -62,7 +62,7 @@
     transition: transform 0.25s ease-out;
   }
 
-  a:hover::after {
+  nav a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
@@ -92,12 +92,25 @@
 
   .picture1,
   .picture3 {
-    /* border: 3px solid black; */
     text-align: center;
     width: 100%;
     background: #e5e5e5;
     display: flex;
     margin: 0 0 20px 0;
+  }
+
+  .picture1 figure,
+  .picture2 figure,
+  .picture3 figure,
+  .picture4 figure {
+    width: 50%;
+  }
+
+  .picture1 figcaption,
+  .picture2 figcaption,
+  .picture3 figcaption,
+  .picture4 figcaption {
+    width: 50%;
   }
 
   .picture2,
@@ -119,6 +132,8 @@
     width: 50%;
     padding: 0 20px 0 20px;
   }
+
+  /* NEWSLETTER INFOS */
 
   .container-newsletter {
     background: url("../../../assets/newsletter.jpg") fixed;

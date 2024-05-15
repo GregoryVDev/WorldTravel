@@ -1,0 +1,169 @@
+/* GENERAL */
+
+h3 {
+  background: none;
+  margin-bottom: 0;
+}
+
+article {
+  margin: 0;
+}
+
+/* SECTION VIDEO SECTION */
+
+.logo-travel {
+  display: block;
+}
+
+.logo-travel img {
+  width: 150px;
+}
+
+/* SECTION DESTINATIONS */
+
+#search {
+  margin: 10px auto;
+}
+
+/* SECTION VACANCES */
+
+.picture5,
+.picture6,
+.picture7,
+.picture8,
+.picture9,
+.picture10,
+.picture11,
+.picture12 {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+  background: #e5e5e5;
+  margin-bottom: 10%;
+}
+
+article figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-article2 img,
+.container-article3 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media all and (min-width: 570px) {
+  /* SECTION VACANCES */
+
+  .picture5,
+  .picture6,
+  .picture7,
+  .picture8,
+  .picture9,
+  .picture10,
+  .picture11,
+  .picture12 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+    background: #e5e5e5;
+    margin-bottom: 10%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  /* SECTION VACANCES */
+
+  .container-article2,
+  .container-article3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .container-article2 article,
+  .container-article3 article {
+    width: calc(
+      50% - 10px
+    ); /* Pour laisser un petit espace entre les articles */
+  }
+}
+
+@media all and (min-width: 1024px) {
+}
+/* SECTION VACANCES */
+
+.container-article2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.container-article2 img {
+  width: 100%;
+}
+
+.container-article2 figure {
+  display: flex;
+}
+
+.container-article2 figcaption {
+  margin-bottom: 8%;
+  padding: 0px 15px;
+}
+
+.container-article3 {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.container-article3 img {
+  width: 100%;
+}
+
+.container-article3 figure {
+  display: flex;
+}
+
+.container-article3 figcaption {
+  margin-bottom: 8%;
+  padding: 0px 15px;
+}
+
+.picture5,
+.picture6,
+.picture7,
+.picture8,
+.picture9,
+.picture10,
+.picture11,
+.picture12 {
+  display: block;
+}
+
+.picture5,
+.picture6,
+.picture7,
+.picture8,
+.picture9,
+.picture10,
+.picture11,
+.picture12 {
+  text-align: center;
+  width: 60%;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px auto;
+}
+
+.price-promo {
+  font-family: var(--sourceBold);
+}

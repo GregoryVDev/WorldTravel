@@ -21,6 +21,11 @@ a:hover {
 
 .logo-travel {
   margin: auto;
+  display: block;
+}
+
+.logo-travel img {
+  width: 150px;
 }
 
 #section1 {
@@ -64,7 +69,7 @@ h4 {
 p {
   font-size: 1em;
   line-height: 1.5em;
-  text-align: justify;
+  text-align: left;
   margin: auto;
   padding: 2%;
 }
