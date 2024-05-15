@@ -4,10 +4,6 @@ section {
   position: relative;
 }
 
-button {
-  cursor: pointer;
-}
-
 button:hover {
   cursor: pointer;
   background: #266070;
@@ -266,6 +262,13 @@ video {
   background: none;
 }
 
+.picture1 a,
+.picture2 a,
+.picture3 a,
+.picture4 a {
+  margin: auto;
+}
+
 .picture1,
 .picture2,
 .picture3,
@@ -284,7 +287,7 @@ video {
 .picture4 figcaption {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .container-article img {

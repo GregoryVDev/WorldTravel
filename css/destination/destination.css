@@ -27,10 +27,19 @@ article {
 
 .destinations p {
   width: 50%;
-  margin: auto;
+  margin: 50px auto 50px auto;
+}
+
+figcaption p:last-of-type {
+  margin-bottom: 10px;
 }
 
 /* SECTION VACANCES */
+
+.container-article2 h3,
+.container-article3 h3 {
+  margin: 0;
+}
 
 .picture5,
 .picture6,
@@ -46,6 +55,17 @@ article {
   box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
   background: #e5e5e5;
   margin-bottom: 10%;
+}
+
+.picture5 p,
+.picture6 p,
+.picture7 p,
+.picture8 p,
+.picture9 p,
+.picture10 p,
+.picture11 p,
+.picture12 p {
+  margin-top: 15px;
 }
 
 article figcaption {
