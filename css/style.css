@@ -3,11 +3,11 @@
   --text-color2: #0f0f0f;
   --text-color3: #3d4642;
 
-  --fsize1: 4.75em;
-  --fsize2: 3.125em;
+  /* --fsize1: 4.75em;
+  --fsize2: 3.125em; */
   --fsize3: 2.5em;
   --fsize4: 2.1875em;
-  --fsize5: 1.875em;
+  --fsize5: 1.3em;
   --fsize6: 1em;
 
   --black: "SourceSansPro-Black";
@@ -161,41 +161,13 @@
 
   h1 {
     color: var(--text-color1);
-    font-size: var(--fsize2);
+    font-size: var(--fsize3);
     font-family: var(--sourceBold);
     text-align: left;
     width: 500px;
     margin: 0;
   }
 
-  h2 {
-    color: var(--text-color1);
-    font-size: var(--fsize6);
-    font-family: var(--sourceBold);
-    text-align: left;
-    width: 500px;
-    margin: 0;
-  }
-  h3 {
-    padding: 20px;
-    background-color: #d9d9d9;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    font-family: var(--semiBold);
-    font-size: var(--fsize4);
-  }
-
-  h4 {
-    font-family: var(--semiBold);
-    font-size: var(--fsize5);
-    color: #3d4642;
-  }
-  p {
-    font-family: var(--Light);
-    color: var(--text-color2);
-    font-size: var(--fsize6);
-    line-height: 1.5;
-  }
   .applis {
     flex-direction: column;
     gap: 50px;
