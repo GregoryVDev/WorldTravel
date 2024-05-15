@@ -436,29 +436,18 @@ figcaption .price-promo {
 
 /* SECTION CONTACT */
 
-.formulaire-right h4 {
-  margin: 10px 0;
-  text-align: center;
-  color: var(--text-color3);
-}
-
-.form-row {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 label {
   display: none;
+}
+
+.formulaire-right h4 {
+  text-align: center;
 }
 
 .formulaire-right input {
   border: none;
   border-bottom: 1px solid #e2e4e5;
   margin-bottom: 30px;
-  font: 1rem "poppins-regular";
-  font-weight: 500;
   line-height: 1.6;
 }
 
@@ -468,11 +457,14 @@ label {
   padding-bottom: 5px;
 }
 
+::placeholder {
+  color: #7a6957;
+}
+
 textarea {
   border: none;
   border-bottom: 1px solid #e2e4e5;
   margin-bottom: 30px;
-  font-weight: 500;
   line-height: 1.6;
   font-size: 1rem;
 }

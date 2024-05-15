@@ -1,42 +1,32 @@
-@media all and (min-width: 1024px) {
-
-   .logo-travel {
-      display: inline;
-    }
-
-
-
- /*SECTION AGENCE*/
-
-   .photos-agency {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-   .agence-1 {
-    width: 40%;
-    background-size: cover;
-  }
-  
-  .accueil-1 {
-    width: 40%;
-    background-size: cover;
-  }
-
-/*SECTION INFORMATION AGENCE*/
-
-  .container-agence {
-    display: inline-block;
-  }
+.picture-agency {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-/* SECTION NEWSLETTER-INFOS*/
+#section1 h4 {
+  font-size: var(--fsize4);
+  text-align: left;
+}
 
-.container-newsletter {
-  background: url("../../assets/newsletter.jpg") fixed;
-  background-size: cover;
-  background-position: 35% 75%;
-  width: 100%;
-  padding: 50px;
-  text-align: center;
+#section1 p {
+  margin-left: 50px;
+}
+
+@media all and (min-width: 1024px) {
+  .picture-agency {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .picture-agency img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
 }
