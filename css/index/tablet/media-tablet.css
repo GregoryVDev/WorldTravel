@@ -92,7 +92,6 @@
 
   .picture1,
   .picture3 {
-    text-align: center;
     width: 100%;
     background: #e5e5e5;
     display: flex;
@@ -115,7 +114,6 @@
 
   .picture2,
   .picture4 {
-    text-align: center;
     width: 100%;
     background: #e5e5e5;
     display: flex;

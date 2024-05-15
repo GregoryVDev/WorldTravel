@@ -4,14 +4,51 @@ section {
   position: relative;
 }
 
-button {
-  cursor: pointer;
-}
-
 button:hover {
   cursor: pointer;
   background: #266070;
   color: var(--text-color1);
+}
+
+h1 {
+  color: var(--text-color1);
+  font-size: var(--fsize3);
+  font-family: var(--sourceBold);
+  text-align: left;
+  width: 500px;
+  margin: 0;
+}
+
+h2 {
+  color: var(--text-color1);
+  font-size: var(--fsize4);
+  font-family: var(--sourceBold);
+  text-align: left;
+  margin: 0;
+}
+
+h3 {
+  padding: 20px;
+  background-color: #d9d9d9;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-family: var(--semiBold);
+  font-size: var(--fsize5);
+}
+
+h4 {
+  font-family: var(--sourceBold);
+  font-size: var(--fsize5);
+  color: #3d4642;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: var(--Light);
+  color: var(--text-color2);
+  font-size: var(--fsize6);
+  line-height: 1.5;
 }
 
 /* Header */
@@ -219,16 +256,24 @@ video {
 #travels h3 {
   font-family: var(--light);
   font-weight: 300;
-  font-size: var(--fsize6);
+  font-size: var(--fsize4);
   text-align: center;
   margin: 5% 0%;
+  background: none;
+}
+
+.picture1 a,
+.picture2 a,
+.picture3 a,
+.picture4 a {
+  margin: auto;
 }
 
 .picture1,
 .picture2,
 .picture3,
 .picture4 {
-  text-align: center;
+  text-align: left;
   width: 70%;
   margin: auto;
   box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
@@ -242,7 +287,7 @@ video {
 .picture4 figcaption {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .container-article img {
@@ -307,14 +352,6 @@ figcaption .price-promo {
   background: #e5e5e5;
 }
 
-.advice h4 {
-  font-family: var(--semiBold);
-  font-size: var(--fsize6);
-  color: #3d4642;
-  margin-bottom: 10%;
-  padding-top: 5%;
-}
-
 .container-left {
   margin-bottom: 5%;
 }
@@ -357,15 +394,14 @@ figcaption .price-promo {
 }
 
 .logos-news figcaption h4 {
-  font-size: var(--fsize6);
+  font-size: var(--fsize5);
   font-family: var(--sourceBold);
-  color: var(--text-color2);
 }
 
 .logos-news figcaption p {
   font-family: var(--sourceBold);
   color: var(--text-color3);
-  font-size: 1rem;
+  font-size: var(--fsize6);
   text-align: left;
 }
 
@@ -382,7 +418,8 @@ figcaption .price-promo {
 
 .container-newsletter p {
   color: var(--text-color1);
-  font-size: 1.2rem;
+  font-size: var(--fsize5);
+  font-family: var(--regular);
   margin-bottom: 20px;
 }
 
@@ -399,7 +436,7 @@ figcaption .price-promo {
 
 /* SECTION CONTACT */
 
-.formulaire-right h2 {
+.formulaire-right h4 {
   margin: 10px 0;
   text-align: center;
   color: var(--text-color3);
@@ -487,11 +524,6 @@ footer {
   flex-direction: column;
 }
 
-footer h2,
-footer p {
-  color: var(--text-color1);
-}
-
 footer h2 {
   margin-bottom: 25px;
   padding: 30px 20px 0;
@@ -501,6 +533,7 @@ footer h2 {
 footer p {
   padding: 0 20px 5px;
   font-family: var(--light);
+  color: var(--text-color1);
 }
 
 footer .applis {
@@ -525,4 +558,23 @@ footer .applis {
 
 .container-footer p {
   text-align: center;
+}
+
+/* FLECHE */
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 999;
+  display: none;
+}
+
+#scroll-to-top a {
+  font-size: 50px;
+  color: #266070;
+  padding: 10px;
+  border-radius: 50%;
 }

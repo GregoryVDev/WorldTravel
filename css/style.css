@@ -3,12 +3,12 @@
   --text-color2: #0f0f0f;
   --text-color3: #3d4642;
 
-  --fsize1: 4.75em;
-  --fsize2: 3.125em;
+  /* --fsize1: 4.75em;
+  --fsize2: 3.125em; */
   --fsize3: 2.5em;
   --fsize4: 2.1875em;
-  --fsize5: 1.875em;
-  --fsize6: 1.5625em;
+  --fsize5: 1.3em;
+  --fsize6: 1em;
 
   --black: "SourceSansPro-Black";
   --blackIt: "SourceSansPro-BlackIt";
@@ -161,7 +161,8 @@
 
   h1 {
     color: var(--text-color1);
-    font-size: var(--fsize2);
+    font-size: var(--fsize3);
+    font-family: var(--sourceBold);
     text-align: left;
     width: 500px;
     margin: 0;
