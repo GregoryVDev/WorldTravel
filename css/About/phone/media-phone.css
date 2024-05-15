@@ -16,17 +16,25 @@
   .container-agence {
     font-family: var(--light);
     font-size: 0.9375em;
+    padding-bottom: 10%;
   }
 
   /*SECTION PHOTOS-AGENCY*/
 
-  .photos-agency {
-    display: block;
-    right: 30%;
-    background-size: contain;
+  .container-agency {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    height: 500px;
+    border: solid 3px black;
   }
 
-  article .agence-1 {
-    height: 100%;
-    width: 100%;
+  .agence-1 {
+    width: 10%;
+    height: 50px;
+  }
+
+  .accueil-1 {
+    width: 10%;
+    height: 50px;
   }
