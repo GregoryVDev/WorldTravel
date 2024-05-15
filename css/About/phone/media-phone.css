@@ -1,0 +1,41 @@
+/*SECTION AGENCE*/
+
+.logo-travel {
+    display: block;
+  }
+
+/*SECTION INFORMATION-AGENCE*/
+
+  h3 {
+    background: none;
+    font-family: var(--regular);
+    font-size: var(--fsize6);
+  }
+
+  .container-agence {
+    font-family: var(--light);
+    font-size: 0.9375em;
+    padding-bottom: 10%;
+    padding-left: 8%;
+  }
+
+  /*SECTION PHOTOS-AGENCY*/
+
+  .container-agency {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .agence-1,
+  .accueil-1 {
+    width: 100%; 
+    justify-content: center;
+  }
+   
+  .agence-1 img,
+  .accueil-1 img {
+    width: 100%;
+    height: auto;
+  }
+  
