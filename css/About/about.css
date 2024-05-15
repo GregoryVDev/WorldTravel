@@ -10,30 +10,18 @@
 
    .photos-agency {
     display: flex;
-    border: solid 3px red;
     justify-content: space-around;
   }
   
    .agence-1 {
-    border: solid 3px blue;
     width: 40%;
     background-size: cover;
   }
   
   .accueil-1 {
-    border: solid 3px green;
     width: 40%;
     background-size: cover;
   }
-  
-  article .accueil-1 {
-    border: solid 3px black;
-  } 
-
-  figure {
-    border:  solid 3px yellow;
-  }
-
 
 /*SECTION INFORMATION AGENCE*/
 
