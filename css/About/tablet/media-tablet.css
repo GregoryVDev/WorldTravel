@@ -44,20 +44,31 @@
 
   .container-agency {
     display: flex;
-    flex-basis: 100%;
     flex-direction: column;
-    height: 800px;
-    border: solid 3px black;
+    align-items: center;
+    justify-content: center; 
+    margin-top: -10%;
   }
-
-  .agence-1 {
-    width: 60%;
-    height: 400px;
-  }
-
+  
+  .agence-1,
   .accueil-1 {
-    width: 60%;
-    height: 355px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+  }
+  
+  .agence-1 img,
+  .accueil-1 img {
+    width: 1005px; 
+    height: auto;
+  }
+  
+/*SECTION INFORMATION-AGENCE*/
+
+  .container-agence {
+    margin-top: -5%;
+    padding-left: 8%;
   }
 
 }

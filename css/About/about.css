@@ -4,8 +4,6 @@
       display: inline;
     }
 
-
-
  /*SECTION AGENCE*/
 
    .photos-agency {
@@ -26,17 +24,42 @@
 /*SECTION INFORMATION AGENCE*/
 
   .container-agence {
-    display: inline-block;
+    margin-top: -5%;
+    padding-left: 5%;
   }
-}
+
+/*SECTION PHOTOS-AGENCY*/
+ 
+ .container-agency {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10%;
+} 
+
+  .agence-1 {
+    width: 40%; 
+  }
+
+  .accueil-1 {
+    width: 45%;
+  }
+
+  .agence-1 img,
+  .accueil-1 img {
+    width: 100%;
+    height: auto;
+  }
 
 /* SECTION NEWSLETTER-INFOS*/
 
-.container-newsletter {
-  background: url("../../assets/newsletter.jpg") fixed;
-  background-size: cover;
-  background-position: 35% 75%;
-  width: 100%;
-  padding: 50px;
-  text-align: center;
+  .container-newsletter {
+    background: url("../../assets/newsletter.jpg") fixed;
+    background-size: cover;
+    background-position: 35% 75%;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 3%;
+ }
+
 }
