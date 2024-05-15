@@ -19,12 +19,82 @@ article {
   width: 150px;
 }
 
+/* SECTION DESTINATIONS */
+
 #search {
   margin: 10px auto;
 }
 
-/* SECTION DESTINATIONS */
+/* SECTION VACANCES */
 
+.picture5,
+.picture6,
+.picture7,
+.picture8,
+.picture9,
+.picture10,
+.picture11,
+.picture12 {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+  background: #e5e5e5;
+  margin-bottom: 10%;
+}
+
+article figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-article2 img,
+.container-article3 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media all and (min-width: 570px) {
+  /* SECTION VACANCES */
+
+  .picture5,
+  .picture6,
+  .picture7,
+  .picture8,
+  .picture9,
+  .picture10,
+  .picture11,
+  .picture12 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+    background: #e5e5e5;
+    margin-bottom: 10%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  /* SECTION VACANCES */
+
+  .container-article2,
+  .container-article3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .container-article2 article,
+  .container-article3 article {
+    width: calc(
+      50% - 10px
+    ); /* Pour laisser un petit espace entre les articles */
+  }
+}
+
+@media all and (min-width: 1024px) {
+}
 /* SECTION VACANCES */
 
 .container-article2 {
@@ -96,53 +166,4 @@ article {
 
 .price-promo {
   font-family: var(--sourceBold);
-}
-
-/* SECTION INFORMATIONS */
-
-.advice .container-left p {
-  text-align: center;
-}
-
-@media all and (min-width: 468px) and (max-width: 1023px) {
-  /* SECTION DESTINATIONS */
-
-  .container-article {
-    display: flex;
-  }
-
-  .picture5,
-  .picture6,
-  .picture7,
-  .picture8,
-  .picture9,
-  .picture10,
-  .picture11,
-  .picture12 {
-    display: block;
-  }
-
-  .picture5,
-  .picture6,
-  .picture7,
-  .picture8,
-  .picture9,
-  .picture10,
-  .picture11,
-  .picture12 {
-    text-align: center;
-    width: 100%;
-    background: #e5e5e5;
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 20px 0;
-  }
-
-  .container-article {
-    width: 50%;
-    margin: auto;
-  }
-}
-
-@media all and (min-width: 1024px) {
 }
