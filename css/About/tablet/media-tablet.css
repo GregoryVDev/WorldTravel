@@ -40,4 +40,24 @@
     height: 100%;
   }
 
+/*SECTION PHOTOS-AGENCY*/
+
+  .container-agency {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    height: 800px;
+    border: solid 3px black;
+  }
+
+  .agence-1 {
+    width: 60%;
+    height: 400px;
+  }
+
+  .accueil-1 {
+    width: 60%;
+    height: 355px;
+  }
+
 }
