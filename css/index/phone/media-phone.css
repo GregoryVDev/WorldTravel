@@ -219,9 +219,10 @@ video {
 #travels h3 {
   font-family: var(--light);
   font-weight: 300;
-  font-size: var(--fsize6);
+  font-size: var(--fsize4);
   text-align: center;
   margin: 5% 0%;
+  background: none;
 }
 
 .picture1,
@@ -525,4 +526,23 @@ footer .applis {
 
 .container-footer p {
   text-align: center;
+}
+
+/* FLECHE */
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 100px;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 999;
+  display: none;
+}
+
+#scroll-to-top a {
+  font-size: 50px;
+  color: #266070;
+  padding: 10px;
+  border-radius: 50%;
 }
