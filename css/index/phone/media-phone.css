@@ -561,7 +561,7 @@ footer .applis {
 #scroll-to-top {
   position: fixed;
   bottom: 20px;
-  right: 100px;
+  right: 10px;
   cursor: pointer;
   opacity: 0.8;
   z-index: 999;

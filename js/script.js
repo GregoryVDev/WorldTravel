@@ -9,9 +9,9 @@ menuBurger.addEventListener("click", () => {
 // Fonction pour afficher ou masquer la flèche en fonction du défilement
 function toggleScrollTopButton() {
   var scrollButton = document.getElementById("scroll-to-top");
-  if (window.scrollY > 50 && scrollButton.style.display !== "block") {
+  if (window.scrollY > 500 && scrollButton.style.display !== "block") {
     scrollButton.style.display = "block";
-  } else if (window.scrollY <= 50 && scrollButton.style.display !== "none") {
+  } else if (window.scrollY <= 500 && scrollButton.style.display !== "none") {
     scrollButton.style.display = "none";
   }
 }
