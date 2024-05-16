@@ -326,24 +326,24 @@
   }
 
   #name {
-    width: 300px;
+    width: 350px;
   }
 
   #prenom {
-    width: 300px;
+    width: 350px;
   }
 
   #email {
-    width: 300px;
+    width: 350px;
   }
 
   #phone {
-    width: 300px;
+    width: 350px;
   }
 
   #message {
     resize: none;
-    width: 300px;
+    width: 350px;
   }
 
   /* FOOTER */

@@ -458,7 +458,6 @@ label {
 .formulaire-right input:focus {
   outline: none;
   border-bottom-color: #007aff;
-  padding-bottom: 5px;
 }
 
 ::placeholder {
@@ -476,7 +475,6 @@ textarea {
 textarea:focus {
   outline: none;
   border-bottom-color: #007aff;
-  padding-bottom: 5px;
 }
 
 #name {
@@ -501,12 +499,12 @@ textarea:focus {
 }
 
 .button-form {
-  margin: auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .submit {
-  width: 50%;
+  width: 90px;
   margin-bottom: 15px;
   padding: 10px;
 }
@@ -563,7 +561,7 @@ footer .applis {
   bottom: 20px;
   right: 10px;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
   z-index: 999;
   display: none;
 }
