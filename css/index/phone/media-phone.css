@@ -436,6 +436,10 @@ figcaption .price-promo {
 
 /* SECTION CONTACT */
 
+.formulaire-right {
+  margin-left: 10px;
+}
+
 label {
   display: none;
 }
