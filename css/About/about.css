@@ -11,10 +11,6 @@
   text-align: left;
 }
 
-#section1 p {
-  margin-left: 50px;
-}
-
 @media all and (min-width: 1024px) {
   .picture-agency {
     max-width: 100%;
@@ -28,5 +24,9 @@
     width: 400px;
     height: 400px;
     object-fit: cover;
+  }
+
+  #section1 p {
+    margin-left: 50px;
   }
 }
