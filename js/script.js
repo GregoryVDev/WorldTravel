@@ -29,7 +29,7 @@ window.addEventListener("scroll", toggleScrollTopButton);
 
 // Écoutez l'événement de chargement de la page
 window.addEventListener("load", function () {
-  setTimeout(toggleScrollTopButton, 100); // Adjust the delay as needed
+  setTimeout(toggleScrollTopButton, 100);
 });
 
 // Écoutez l'événement de clic sur la flèche
