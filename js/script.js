@@ -8,7 +8,7 @@ menuBurger.addEventListener("click", () => {
 
 // Fonction pour afficher ou masquer la flèche en fonction du défilement
 function toggleScrollTopButton() {
-  var scrollButton = document.getElementById("scroll-to-top");
+  let scrollButton = document.getElementById("scroll-to-top");
   if (window.scrollY > 500 && scrollButton.style.display !== "block") {
     scrollButton.style.display = "block";
   } else if (window.scrollY <= 500 && scrollButton.style.display !== "none") {
@@ -41,7 +41,7 @@ document
   });
 
 // Sélectionnez tous les liens vers les sections de votre navigation
-var sectionLinks = document.querySelectorAll("a[href^='#']");
+let sectionLinks = document.querySelectorAll("a[href^='#']");
 
 // Parcourez chaque lien et ajoutez un écouteur d'événements pour gérer le clic
 sectionLinks.forEach(function (link) {
@@ -49,10 +49,10 @@ sectionLinks.forEach(function (link) {
     e.preventDefault(); // Empêche le comportement de clic par défaut
 
     // Obtenez l'ID de la section cible à partir de l'attribut href du lien
-    var targetId = this.getAttribute("href").substring(1);
+    let targetId = this.getAttribute("href").substring(1);
 
     // Sélectionnez la section cible
-    var targetSection = document.getElementById(targetId);
+    let targetSection = document.getElementById(targetId);
 
     // Faites défiler la fenêtre jusqu'à la section cible avec une animation fluide
     targetSection.scrollIntoView({
